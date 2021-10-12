@@ -1,0 +1,174 @@
+body{
+    background: whitesmoke;
+}
+
+h4{
+    color: #6466AF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+   
+}
+* {
+    box-sizing: border-box;
+  }
+
+  #table_button{
+    position: absolute;
+    top: 20%;
+    left: 35%
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+ 
+  .column {
+    float: left;
+    width: auto;
+    padding: 10px;
+    height: auto;
+}
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  .row{
+    padding: 5%;
+  }
+
+   
+
+
+
+    .tb_service,#tb_type,#tb_categorie,#tb_n_inventaire,#tb_qte_stock,#idProduitss,#tb_value_cat,#qtesrtC,#mycatcatcat
+    {
+    width: 300px;
+    height: 40px;
+    margin-left: 0%;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color:rgb(228, 228, 228);
+    color: black;
+
+  }
+  #qtesrtC{
+    width:100%;
+    background-color: white;
+  }
+  #mytexth1{
+ text-align: center
+  }
+  #tb_qte_sortie{
+    width: 300px;
+    height: 40px;
+    margin-left: 0%;
+    font-size: 20px;
+    border-radius: 10px;
+    color: black;
+  }
+
+  .tb_service:hover,#tb_type:hover,#tb_categorie:hover,#tb_n_inventaire:hover,#tb_qte_stock:hover,#tb_qte_sortie:hover,#mycatcatcat:hover,#idProduitss:hover,#tb_value_cat:hover{
+    font-size: 25px;
+    transition: all 0.4s;
+  }
+
+
+  #tb_fonctionnaire{
+    width: 300px;
+    height: 40px;
+
+    font-size: 20px;
+    border-radius: 10px;
+
+  }
+
+
+select{
+  width: 300px;
+  height: 40px;
+  margin-left: 0%;
+  font-size: 20px;
+  border-radius: 10px;
+ 
+  color: black;
+}
+select:hover,#tb_qte_sortie:hover{
+    margin-left: 0%;
+  
+    border-radius: 15px;
+    transition: all 0.3s;
+  }
+
+  select:focus{
+    margin-left: 0%;
+  
+    border-radius: 10px;
+    border: 10px;
+}
+   #text {
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-size: 25px;
+       color: #46487a;
+       margin-top: auto;
+       padding: 2%;
+       transition: all 1s;
+       border-style: solid ;
+       margin-left: 122px;
+   }
+#text_fonct{
+  transition: all 1s;
+  border-style: solid;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  color: #46487a;
+  margin-top: auto;
+  padding: 2%;
+  margin-left: 122px;
+
+}
+#table_sortie{
+  
+  border-style: solid;
+  transition: all 2s; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  color: #46487a;
+  padding: 2%;
+  position: absolute;
+  top: 100%;
+  left: 30%;
+  width: 53%;
+}
+
+#button_annuler,#button_valider,#button_afficher{
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+#button_afficher{
+  width:50%
+}
+
+#button_annuler:hover,#button_valider:hover,#button_afficher:hover{
+  border-radius: 15px;
+ 
+  transition: all ease-in-out 0.2s;
+  background-color: #6466AF;
+  color: whitesmoke;
+}
+#button_annuler:focus,#button_valider:focus,#button_afficher:focus{
+  background-color: #46487a;
+  color: whitesmoke;
+  border-radius: 12px;
+
+}
+

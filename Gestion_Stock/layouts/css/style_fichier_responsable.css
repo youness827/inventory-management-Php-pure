@@ -1,0 +1,139 @@
+body{
+    background-color:whitesmoke ;
+}
+
+#table{
+    border: solid 1px #000000;
+    
+   font-size: 20px;
+   
+    
+    text-align: left;
+    width: 98%;
+    
+}
+h4{
+    color: #6466AF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+#tr{
+    height: 25%;
+ 
+}
+#td{
+    width:100px;
+    border-style: ridge;
+}
+#tb_rason_social,#tb_rechercher,#tb_email,#tb_tel,#tb_responsable,#tb_fax,#tb_ville,#tb_observations,#tb_rue,#tb_num{
+    width: 85%;
+    height: 25px;
+    margin-left: 0%;
+    font-size: 16px;
+    border-radius: 3px;
+    
+}
+#rechercher{
+    width: 284px;
+    height: 41px;
+    margin-left: 0%;
+
+}
+#button{
+    width: 184px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+   
+    
+}
+#table_button{
+    border-style: outset;
+    border-radius: 10px;
+    margin-top: auto;
+    border: double 2px #d6d7db;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+   
+}
+#table_button:hover{
+ 
+    background-color: rgb(212, 210, 224);
+
+
+}
+
+#button:hover{
+    width: 190px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: #6466AF;
+    transition: all 0.5s ease;
+    color:whitesmoke;
+    font-size:bold;
+
+    
+}
+#button:focus{
+    background-color: #6466AF;
+    color: whitesmoke;
+    width: 184px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+#tb_num:hover,#tb_rason_social:hover,#tb_rechercher:hover,#tb_email:hover,#tb_tel:hover,#tb_responsable:hover,#tb_fax:hover,#tb_ville:hover,#tb_observations:hover,#tb_rue:hover{
+   
+  
+    margin-left: 0%;
+    font-size: 15px;
+    background-color: rgb(232, 231, 240);
+    transition: all 0.6s ease;
+}
+#tb_num:focus,#tb_rason_social:focus,#tb_rechercher:focus,#tb_email:focus,#tb_tel:focus,#tb_responsable:focus,#tb_fax:focus,#tb_ville:focus,#tb_observations:focus,#tb_rue:focus{
+   
+  
+    margin-left: 0%;
+    font-size: 15px;
+    background-color: rgb(221, 219, 235);
+    border-radius: 10px;
+    border: 10px;
+    
+}
+
+#rechercher{
+
+    border-radius: 9px;
+
+}
+
+#rechercher:hover{
+  
+    height: 40px;
+    margin-left: 0%;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: rgb(235, 229, 229);
+}
+#rechercher:focus{
+    
+    height: 40px;
+    margin-left: 0%;
+    font-size: 16px;
+    border-radius: 9px;
+    background-color: rgb(221, 219, 235);
+}
+#table_rechercher{
+   
+    margin-top: auto;
+    margin-left:0%;
+}
+.mytable{
+ position: absolute;
+ left:150px
+}

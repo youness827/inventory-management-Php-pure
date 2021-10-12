@@ -1,0 +1,150 @@
+body{
+    background: whitesmoke;
+}
+
+h4{
+    color: #6466AF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+* {
+    box-sizing: border-box;
+  }
+  .header {
+   
+    background-color: whitesmoke;
+    color: whitesmoke;
+  }
+  
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: auto;
+    padding: 10px;
+    height: auto;
+}
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #tb_email,#tb_nom,#tb_tel,#tb_prenom,#tb_service,select{
+    width: 400px;
+    height: 40px;
+    margin-left: 0%;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+#tb_n_facture{
+    width: 100px;
+    height: 40px;
+    margin-left: 0%;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+
+  #tb_email:hover,#tb_nom:hover,#tb_tel:hover,#tb_prenom:hover,#tb_service:hover,#tb_n_facture:hover,select:hover{
+
+    margin-left: 0%;
+    font-size: 15px;
+    background-color: rgb(232, 231, 240);
+    border-radius: 15px;
+    transition: all 0.3s;
+  }
+
+  #tb_email:focus,#tb_nom:focus,#tb_tel:focus,#tb_prenom:focus,#tb_service:focus,#tb_n_facture:focus,select:focus{
+    
+    margin-left: 0%;
+    font-size: 15px;
+    background-color: rgb(221, 219, 235);
+    border-radius: 10px;
+    border: 10px;
+    
+
+}
+
+
+    #button{
+        width:180px;
+        height:40px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+
+    #button:hover{
+        border-radius: 15px;
+        font-size: 15px;
+        transition: all ease-in-out 0.2s;
+        background-color: #6466AF;
+        color: whitesmoke;
+    }
+    #button:focus{
+        background-color: #46487a;
+        color: whitesmoke;
+        border-radius: 12px;
+        font-size: 15px;
+    }
+
+    #text,#table_button{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+  
+    .right{
+       margin-top: 15px;
+       margin-left:292px;
+    }
+
+   #text{
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-size: large;
+       color: #46487a;
+       border: black solid 2px;
+       border-radius: 1%;
+       margin-top: 8%;
+       padding: 1%;
+   }
+
+   #table_rechrcher{
+       margin-top: -170px;
+       margin-left: 74.5%;
+
+       width: 12px;
+       padding: 3px;
+   }
+   
+   #tb_rechercher{
+    width: px;
+    height: 30px;
+    margin-left: 0%;
+    font-size: 15px;
+    background-color:white;
+
+    border: solid #46487a 1px;
+    text-align: center;
+   }
+#tb_rechercher:hover{
+    border-radius: 10px;
+    background-color: rgb(221, 219, 235);
+    transition: all ease-in-out 0.2s;
+}
+#tb_rechercher:focus{
+    border: solid #46487a 2px;
+    background-color: rgb(221, 219, 235);
+    transition: all ease-in-out 0.2s;
+}

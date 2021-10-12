@@ -1,0 +1,180 @@
+body{
+    background: whitesmoke;
+}
+
+h4{
+    color: #6466AF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+* {
+    box-sizing: border-box;
+  }
+  .header {
+    padding: 10px 16px;
+    background-color: whitesmoke;
+    color: whitesmoke;
+  }
+  
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: auto;
+    padding: 10px;
+    height: auto;
+}
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #tb_n_designation,#tb_designation{
+    width: 500px;
+    height: 40px;
+    margin-left: 0%;
+    font-size: 16px;
+  }
+
+  #tb_n_designation:hover,#tb_designation:hover{
+
+    margin-left: 0%;
+    font-size: 15px;
+    background-color: rgb(232, 231, 240);
+    border-radius: 15px;
+    transition: all 0.3s;
+  }
+
+  #tb_n_designation:focus,#tb_designation:focus{
+    
+    margin-left: 0%;
+    font-size: 15px;
+    background-color: rgb(221, 219, 235);
+    border-radius: 10px;
+    border: 10px;
+    
+
+}
+
+
+    #button{
+        width:180px;
+    height: 40px;
+    font-size: 22px;
+    border-radius: 10px;
+    position: relative;
+    top:55px
+     
+    }
+
+    #button:hover{
+        border-radius: 15px;
+        font-size: 15px;
+        transition: all ease-in-out 0.2s;
+        background-color: #6466AF;
+        color: whitesmoke;
+        transition: all 0.5s ease;
+    }
+    #button:focus{
+        background-color: #46487a;
+        color: whitesmoke;
+        border-radius: 12px;
+        font-size: 15px;
+    }
+
+    #text,#table_button{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    section{
+        width: 65%;
+        float: left;
+        height: 400px;
+       
+    }
+    .right{
+        width: auto;
+        float: left;
+        height: auto;
+  
+        border-radius: 5%;
+        margin-left: 10px;
+       
+    }
+
+   #text{
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-size: large;
+       color: #46487a;
+       border: black solid 1px;
+       border-radius: 1%;
+       margin-top: 8%;
+  
+   }
+
+   #table_rechrcher{
+    margin-top: -213px;
+    margin-left: 43px;
+    /* position: absolute; */
+    border: rgb(217 218 219) solid 2px;
+    border-radius: 5%;
+    width: 12px;
+}
+   
+   
+   #tb_rechercher{
+    width: 250px;
+    height: 30px;
+    margin-left: 0%;
+    font-size: 15px;
+    background-color:white;
+
+    border: solid #46487a 1px;
+    text-align: center;
+   }
+#tb_rechercher:hover{
+    border-radius: 10px;
+    background-color: rgb(221, 219, 235);
+    transition: all ease-in-out 0.2s;
+}
+#tb_rechercher:focus{
+    border: solid #46487a 2px;
+    background-color: rgb(221, 219, 235);
+    transition: all ease-in-out 0.2s;
+}
+
+   #butt_rechercher{
+    margin-top: 3px;
+    width: 100%;
+    height: 30px;
+    margin-left: 0%;
+    font-size: 15px;
+    border-radius: 5px;
+   }
+   #butt_rechercher:hover{
+    border-radius: 15px;
+    font-size: 15px;
+    transition: all ease-in-out 0.2s;
+    background-color: #6466AF;
+    color: whitesmoke;
+   }
+
+   #butt_rechercher:focus{
+    background-color: #46487a;
+    color: whitesmoke;
+    border-radius: 12px;
+    font-size: 15px;
+}
