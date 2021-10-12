@@ -5,7 +5,7 @@ $pageTitle='Les Sorties';//title pages
 
     include("init.php");
     
-    if(isset($_SESSION["nomUtilisateur_admin"])){  
+    if(isset($_SESSION["nomUtiliateur_admin"])){  
 
        
 
