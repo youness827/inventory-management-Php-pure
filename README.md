@@ -1,2 +1,2 @@
-# LPABD_radidYouness_khomriHamza_gestionStock
+# inventory management
  
